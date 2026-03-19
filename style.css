@@ -1,3 +1,19 @@
-    body {
+body {
     font-family: monospace;
-    }
+    margin: 1rem;
+    padding: 0.5rem;
+    border: 5px double darkred;
+}
+
+body>h1{
+    text-align: center;
+}
+
+.me_img{
+    display: flex;
+    justify-self: center;
+}
+
+.me_img > img{
+    width: 20rem;
+}
